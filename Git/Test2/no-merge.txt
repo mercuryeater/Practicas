@@ -1,0 +1,2 @@
+Este texto va a aplicarse a un commit en la rama-1 sin mas.
+La idea es dejar esta rama adelante, o fuera de la main, muy diferente
