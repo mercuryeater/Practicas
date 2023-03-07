@@ -1,0 +1,7 @@
+#Borde para la tabla
+table, tr, td, th {
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+
+
