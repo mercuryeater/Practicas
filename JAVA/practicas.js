@@ -121,4 +121,39 @@ for (let i = 0; i < 850; i ++) {
 for (let i =100; i >0; i--) {
     console.log(i);
 }
+
+
+// FUNCIONES
+
+function hello() {
+  console.log("Hola mundo");
+}
+
+hello();
+
+function sum(numberOne, numberTwo) {
+  let result = 0;
+  result = numberOne + numberTwo;
+  console.log(result);
+  return result
+  }
+sum(1,3);
+
 */
+
+// Retornando un valor
+
+
+function hello(name) {
+  return "Hola " + name;
+}
+
+var g1 = hello("Germán");// podemos asignar el valor de retorno a una variable
+
+console.log(g1);
+
+// podemos llamar la función directamente en el parámetro de otra función.
+console.log(hello("David"));
+
+
+
