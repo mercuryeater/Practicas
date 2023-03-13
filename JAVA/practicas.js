@@ -139,7 +139,7 @@ function sum(numberOne, numberTwo) {
   }
 sum(1,3);
 
-*/
+
 
 // Retornando un valor
 
@@ -157,3 +157,57 @@ console.log(hello("David"));
 
 
 
+// ARREGLOS
+
+let array = [1, "Pedro", true, false, "Juan"];
+//recorriendolo
+for (let i = 0; i < array.length; i ++) {
+  console.log(array[i]);
+}
+
+
+
+let array = [1, "Pedro", true, false, "Juan"];
+
+console.log("Antes del reemplazo el elemento es " + array[1]);
+//reemplazar un elemento:
+array[1] = "Germán";
+
+console.log("Luego del reemplazo el elemento es " + array[1]);
+
+array[array.length - 1] = "Carlos";
+
+console.log(array[array.length-1]);
+
+
+
+//Agregar uno o más elementos con push:
+
+let myArray = ['uno', 'dos'];
+console.log("Antes del push es: " + myArray);
+myArray.push('tres', 'cuatro', 'cinco');
+console.log(myArray); // ["uno", "dos", "tres", "cuatro", "cinco"]
+
+*/
+
+// Metodo splice:
+
+//Agrega elementos
+let array = ["Pedro", "Germán", "Diana"];
+array.splice(0, 0, "Juan", 1, "Daniel" );// ["Juan", "Pedro", "Germán", "Diana"]
+console.log(array);
+
+// Eliminar elementos de un array
+let fruits = ['manzana', 'banana', 'naranja', 'mango'];
+fruits.splice(2, 1); // Elimina 1 elemento a partir del índice 2
+console.log(fruits); // ["manzana", "banana", "mango"]
+
+// Agregar elementos a un array
+let animals = ['perro', 'gato', 'ratón'];
+animals.splice(1, 0, 'conejo', 'loro'); // Agrega 'conejo' y 'loro' a partir del índice 1
+console.log(animals); // ["perro", "conejo", "loro", "gato", "ratón"]
+
+// Reemplazar elementos de un array
+let colors = ['rojo', 'verde', 'azul'];
+colors.splice(1, 2, 'amarillo', 'naranja'); // Elimina 'verde' y 'azul', y agrega 'amarillo' y 'naranja' a partir del índice 1
+console.log(colors); // ["rojo", "amarillo", "naranja"]
