@@ -188,7 +188,7 @@ console.log("Antes del push es: " + myArray);
 myArray.push('tres', 'cuatro', 'cinco');
 console.log(myArray); // ["uno", "dos", "tres", "cuatro", "cinco"]
 
-*/
+
 
 // Metodo splice:
 
@@ -211,3 +211,28 @@ console.log(animals); // ["perro", "conejo", "loro", "gato", "ratón"]
 let colors = ['rojo', 'verde', 'azul'];
 colors.splice(1, 2, 'amarillo', 'naranja'); // Elimina 'verde' y 'azul', y agrega 'amarillo' y 'naranja' a partir del índice 1
 console.log(colors); // ["rojo", "amarillo", "naranja"]
+
+
+
+
+// CADENAS DE TEXTO
+
+// Recorriendo Cadenas
+
+let str = "Hola Mundo";
+
+for (let i = 0; i < str.length; i ++) {
+  console.log(str[i]);
+}
+
+*/
+
+//    OBJETOS LITERALES
+
+let persona = {
+  nombre: "Germán",
+  apellido: "Escobar",
+  edad: 35,
+  estatura: 1.8
+}
+//Creé otro archivo
